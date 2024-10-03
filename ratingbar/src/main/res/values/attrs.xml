@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomRatingBar">
+        <!-- Whether the stars are in a non-clickable state -->
+        <attr name="isIndicator" format="boolean" />
+        <!-- Current rating -->
+        <attr name="rating" format="float" />
+        <!-- Total number of stars -->
+        <attr name="ratingCount" format="integer" />
+        <!-- Step size for rating -->
+        <attr name="stepSize" format="float" />
+        <!-- Color of selected stars -->
+        <attr name="starColor" format="color" />
+        <!-- Color of unselected stars -->
+        <attr name="emptyStarColor" format="color" />
+        <!-- Size of the stars -->
+        <attr name="starSize" format="dimension" />
+        <!-- Spacing between stars -->
+        <attr name="starSpacing" format="dimension" />
+    </declare-styleable>
+</resources>
