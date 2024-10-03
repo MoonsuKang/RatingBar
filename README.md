@@ -39,7 +39,7 @@ allprojects {
 
 // App level build.gradle
 dependencies {
-    implementation("io.github.MoonsuKang:custom-rating-bar:1.0.0")
+    implementation("io.github.moonsukang:custom-rating-bar:1.0.0")
 }
 ```
 
