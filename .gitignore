@@ -2,6 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=android,kotlin,androidstudio
 
 ### Android ###
+
+# Ignore gradle.properties to protect sensitive information
+gradle.properties
+
 # Gradle files
 .gradle/
 build/
