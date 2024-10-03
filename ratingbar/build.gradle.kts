@@ -79,9 +79,3 @@ mavenPublishing {
         }
     }
 }
-
-// GPG 서명 설정
-signing {
-    useGpgCmd() // GPG 에이전트를 사용하여 서명
-    sign(publishing.publications)
-}
