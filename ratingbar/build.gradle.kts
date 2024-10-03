@@ -51,7 +51,7 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates("com.kms", "custom-rating-bar", "1.0.0")
+    coordinates("io.github.MoonsuKang", "custom-rating-bar", "1.0.0")
 
     pom {
         name.set("CustomRatingBar")
